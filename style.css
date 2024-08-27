@@ -1,0 +1,175 @@
+/*.imagee img {
+    max-width: 100%;
+    background-color: #f3c14d;
+    background-position: right;
+    
+    position: none;
+    display: flex;
+    margin-left: auto;
+
+    
+}*/
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #f3c14d;
+    padding: 100px;
+    text-align: right;
+    position: relative;
+
+    width: 90%;
+    height: 30vh;
+    background-image: url(images/nobackground.png);
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+}
+header nav ul span {
+    margin: 0 auto 0 0;
+    font-weight: 500;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+.hero-section h1 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+    display: flex;
+    justify-content: left;
+}
+
+.hero-section span {
+    color: #ff6347;
+    display: flex;
+    justify-content: left;
+}
+
+.hero-section p {
+    font-size: 1rem;
+    margin: 20px 0;
+    display: flex;
+    justify-content: left;
+}
+
+.hero-section button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    justify-content: left;
+}
+
+.projects-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.projects-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.project-item h3 {
+    margin: 20px 0 10px;
+    font-size: 1.5rem;
+}
+
+.project-item p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.project-item button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    margin-bottom: 30px;
+}
+
+.contact-section form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-section input,
+.contact-section textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.contact-section button {
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #f3c14d;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+}
+
+footer .social-icons img {
+    width: 30px;
+}
